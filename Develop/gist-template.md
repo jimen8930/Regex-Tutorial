@@ -4,10 +4,11 @@ Regular expressions, commonly known as regex, are distinct strings composed of v
 
 ## Summary
 
-This tutorial will be covering the regex expression used for both matching and cofirming an email:
+This tutorial will be covering the regex expression used for both matching and cofirming an email: 
 
 ^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$
 
+The provided regular expression can also be applied as a text sequence in a code repository to validate and match an email address. 
 
 ## Table of Contents
 
