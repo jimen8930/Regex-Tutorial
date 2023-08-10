@@ -8,7 +8,7 @@ This tutorial will be covering the regex expression used for both matching and c
 
 ^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$
 
-The provided regular expression can also be applied as a text sequence in a code repository to validate and match an email address. 
+The provided regular expression can also be applied as a text sequence in a code repository to validate and match an email address. This technique ensures that users cannot proceed in situations where valid email addresses are required for form completion. By incorporating the regex sequence, users are compelled to enter an unspecified count of characters, succeeded by an "@" symbol, followed by a domain name of unspecified length. Additionally, the domain name system (for example, ".com," ".net," ".dev," etc.) must have a length between 2 and 6 characters as demonstrated in this instance.
 
 ## Table of Contents
 
