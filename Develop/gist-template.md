@@ -25,7 +25,7 @@ The provided regular expression can also be applied as a text sequence in a code
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-
+The building blocks of this specific expression include anchor points, quantifiers, meta escape characters, character classes, individual character matches, grouping and capturing, as well as bracket expressions.
 ### Anchors
 
 ### Quantifiers
