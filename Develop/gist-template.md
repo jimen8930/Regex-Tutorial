@@ -32,6 +32,13 @@ Based on the provided tutorial example, the anchor points "^" and "$" are employ
 Anchors within regex mark the start and end points of the expression. In regards to this expression, the ^ marks the start of the expression and the $ marks the end of the expression.
 
 ### Quantifiers
+Quantifiers in regex are symbols or meta-characters that indicate the number of times a preceding element should be matched. They allow you to specify how many occurrences of a particular character or group of characters are required in the input string for a match to occur. 
+
+-  + after [a-z0-9_\.-]: This quantifier matches one or more occurrences of any lowercase letter, digit, underscore, dot, or hyphen.
+
+-  + after ([\da-z\.-]+): This quantifier matches one or more occurrences of any digit, lowercase letter, dot, or hyphen within the group.
+
+{-  2,6} after [a-z\.]: This quantifier specifies that the character class [a-z\.] should repeat between 2 and 6 times. This is used for the domain name system (e.g., ".com," ".net," ".dev").
 
 ### OR Operator
 
