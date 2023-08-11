@@ -27,7 +27,9 @@ The provided regular expression can also be applied as a text sequence in a code
 ## Regex Components
 The building blocks of this specific expression include anchor points, quantifiers, meta escape characters, character classes, individual character matches, grouping and capturing, as well as bracket expressions.
 Based on the provided tutorial example, the anchor points "^" and "$" are employed. Quantifiers such as "+" and "{2, 6}" are used. The meta escape character "\d" is utilized. Character classes are represented by "[a-z0-9_.-]," "[\da-z.-]," and "[a-z.]." Individual character matches are symbolized by "_," ".," and "-." Grouping and capturing are denoted by "()" and the bracket expression is illustrated by "[]."
+
 ### Anchors
+Anchors within regex mark the start and end points of the expression. In regards to this expression, the ^ marks the start of the expression and the $ marks the end of the expression.
 
 ### Quantifiers
 
