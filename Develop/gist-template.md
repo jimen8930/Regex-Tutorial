@@ -57,8 +57,17 @@ Character classes are enclosed in square brackets `[ ]` and can contain various 
 - `[a-zA-Z0-9]`: This character class matches any alphanumeric character.
 
 ### Flags
+The regex expression covered in this tutorial does not utilize flags.
+
+In a regex, flags are modifiers that you can apply to a regex pattern to change how the pattern is interpreted or how the matching process behaves. These flags allow you to control various aspects of regex matching.
+
+There are only 6 of them in JavaScript -> i: case-sensitivity, g: looks for all matches, m: multiline mode, s: enables "dotall" mode that allows a dot . to match a newline character \n, u: enables full Unicode support, and y: "sticky" mode.
 
 ### Grouping and Capturing
+In regex, grouping and capturing are techniques that allow you to create subpatterns within your main pattern. 
+[] create a character or group range and represent a single character. In regards to the regex expression this tutorial is covering, the brackets are used to separate each character class. The character can be anything specified within the brackets.
+
+Example: [a-z0-9_\.-] -> this character can be matched with any lowercase letters from a-z, and digit from 0-9, an underscore _, a period ., or a dash -.
 
 ### Bracket Expressions
 
