@@ -65,11 +65,15 @@ There are only 6 of them in JavaScript -> i: case-sensitivity, g: looks for all 
 
 ### Grouping and Capturing
 In regex, grouping and capturing are techniques that allow you to create subpatterns within your main pattern. 
+() creates a sequence or sub expression and is a way to treat multiple characters as a single unit. You will notice the regex expression being covered in this tutorial uses () to distinct groups of characters. The first set covers all characters before the @ symbol. The second group coveres all characters before the ., and the last group covers all characters from the . to the end.
+
+### Bracket Expressions
+In the regex, brackets and expressions refer to the use of square brackets [ ] to define character classes or sets of characters that can be matched within a specific position in the input text. 
+
 [] create a character or group range and represent a single character. In regards to the regex expression this tutorial is covering, the brackets are used to separate each character class. The character can be anything specified within the brackets.
 
 Example: [a-z0-9_\.-] -> this character can be matched with any lowercase letters from a-z, and digit from 0-9, an underscore _, a period ., or a dash -.
 
-### Bracket Expressions
 
 ### Greedy and Lazy Match
 
