@@ -85,8 +85,16 @@ In a regex, \b is an example of a word boundary. It usually represents matching 
 
 ### Back-references
 In a regex, back-references are commands which refer to a previous part of the matched regualr expression. It is usually specified with a backslash and a single digit  ex: \2
+
 ### Look-ahead and Look-behind
+In a regex, look-ahead and look-behind usually represented with ?=foo, look-ahead represents what immediately follows the string "foo", while look-behind, is notated as ?<=foo and represents what immediately precedes the string "foo".
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Elizabeth is a software engineer with a bachelors degree in Elementary Education whose interest in technology and the benefits technology has to offer. Elizabeth is here to engage into the modern technologies. Elizabeth currently resides in Miami, Fl.
+
+Have additional questions? Click the links below to reach Elizabeth through her GitHub account or Email address.
+
+Link to Github
+
+ejime053@gmail.com
