@@ -76,11 +76,15 @@ Example: [a-z0-9_\.-] -> this character can be matched with any lowercase letter
 
 
 ### Greedy and Lazy Match
+In a regex, greedy matching is a default behavior where the regex engine will try to match a much of the string as possible, while lazy matching will try to match as little of the string as possible.
+
+Greedy will keep searching until the condition is satisfied while lazy will stop searching once the condition is satisfied.
 
 ### Boundaries
+In a regex, \b is an example of a word boundary. It usually represents matching positions on either side; where once side is a word character and the other is something other than a word character.
 
 ### Back-references
-
+In a regex, back-references are commands which refer to a previous part of the matched regualr expression. It is usually specified with a backslash and a single digit  ex: \2
 ### Look-ahead and Look-behind
 
 ## Author
