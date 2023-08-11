@@ -41,8 +41,20 @@ Quantifiers in regex are symbols or meta-characters that indicate the number of 
 {-  2,6} after [a-z\.]: This quantifier specifies that the character class [a-z\.] should repeat between 2 and 6 times. This is used for the domain name system (e.g., ".com," ".net," ".dev").
 
 ### OR Operator
+There are no OR operators within this particular regex expression. OR operators are represented with the pipe | and specified under the regex type of alternation.
 
 ### Character Classes
+In a regex code, a character class is a way to define a set of characters that can be matched within a single position in the input string. Character classes allow you to specify a range of characters that could appear at that particular position. 
+The character classes utilized in this regex expression are [a-z0-9_\.-], [\da-z\.-], and [a-z\.].
+
+Character classes are enclosed in square brackets `[ ]` and can contain various types of characters or character ranges. Here are some examples of character classes and what they represent:
+
+-  `[a-z]`: This character class matches any lowercase letter from 'a' to 'z'.
+-  `[A-Z]`: This character class matches any uppercase letter from 'A' to 'Z'.
+-  `[0-9]`: This character class matches any digit from 0 to 9.
+-  `[\d]`: This shorthand character class also matches any digit (equivalent to `[0-9]`).
+-  `[a-zA-Z]`: This character class matches any letter, either lowercase or uppercase.
+- `[a-zA-Z0-9]`: This character class matches any alphanumeric character.
 
 ### Flags
 
